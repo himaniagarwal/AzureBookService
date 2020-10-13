@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbHost = 'mongodb://localhost:27017/Books';
+var dbHost = 'mongodb://10.0.3.4:27017/Books';
 mongoose.connect(dbHost, { useNewUrlParser: true } );
 mongoose.connection;
 mongoose.set('debug', true);
